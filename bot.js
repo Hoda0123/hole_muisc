@@ -266,14 +266,14 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed() //by ,$ ReBeL Á , ??#4777 'CODES SERVER'
       .setColor("#000000")//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
       .setDescription(`
-${prefix}play ? تم التشغيل
-${prefix}skip ? áÊÌÂæÒ ÇáÃÛäíÉ ÇáÍÂáíÉ
-${prefix}pause ? ÅíÞÂÝ ÇáÃÛäíÉ ãÄÞÊÇ
-${prefix}resume ? áãæÂÕáÉ ÇáÅÛäíÉ ÈÚÏ ÅíÞÂÝåÂ ãÄÞÊÇ
-${prefix}vol ? áÊÛííÑ ÏÑÌÉ ÇáÕæÊ 100 - 0
-${prefix}stop ? áÅÎÑÂÌ ÇáÈæÊ ãä ÇáÑæã
-${prefix}np ? áãÚÑÝÉ ÇáÃÛäíÉ ÇáãÔÛáÉ ÍÂáíÇ
-${prefix}queue ? áãÚÑÝÉ ÞÂÆãÉ ÇáÊÔÛíá
+${prefix}play ? لتشغيل اغنية
+${prefix}skip ? لتخطى اغنية 
+${prefix}pause ? لايقاف الاغنية مؤقتا
+${prefix}resume ? لتشغيل الاغنية الواقفة
+${prefix}vol ? التحكم بمستوى الصو 100 - 0
+${prefix}stop ? لاخراج البوت من الروم 
+${prefix}np ? لمعرفة اسم الاغنية الشغالة حاليا
+${prefix}queue ? لمعرفة الاغانى التى ستعمل ب الترتيب
  `)//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
    message.channel.sendEmbed(embed)//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
     
