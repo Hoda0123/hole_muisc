@@ -63,7 +63,8 @@ client.on('message', async msg => { // eslint-disable-line
 				const video2 = await youtube.getVideoByID(video.id); // eslint-disable-line no-await-in-loop
 				await handleVideo(video2, msg, voiceChannel, true); // eslint-disable-line no-await-in-loop
 			}//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
-			return msg.channel.send(` **${playlist.title}** Êã ÇáÅÖÂÝÉ Åáì ÞÃÆãÉ ÇáÊÔÛíá`);
+			return msg.channel.send(` **${playlist.title}** الرجآء من حضرتك إختيآر رقم المقطع :
+);
 		} else {
 			try {//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 
@@ -76,7 +77,7 @@ client.on('message', async msg => { // eslint-disable-line
 			        .setDescription(`**ÇáÑÌÂÁ ãä ÍÖÑÊß ÅÎÊíÂÑ ÑÞã ÇáãÞØÚ** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 //by ,$ ReBeL Á , ??#4777 'CODES SERVER'
-					.setFooter(" - MaF , ` $")
+					.setFooter(ArsNaL)
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 					// eslint-disable-next-line max-depth
@@ -101,7 +102,7 @@ ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 			return handleVideo(video, msg, voiceChannel);
 		}//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 	} else if (command === `skip`) {
-		if (!msg.member.voiceChannel) return msg.channel.send('ÃäÊ áÓÊ ÈÑæã ÕæÊí .');
+		if (!msg.member.voiceChannel) return msg.channel.send('تم تخطى الاغنية .');
 		if (!serverQueue) return msg.channel.send('áÇ íÊæÝÑ ãÞØÚ áÊÌÂæÒå');
 		serverQueue.connection.dispatcher.end('Êã ÊÌÂæÒ åÐÂ ÇáãÞØÚ');
 		return undefined;
@@ -113,7 +114,7 @@ ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 		return undefined;
 	} else if (command === `vol`) {
 		if (!msg.member.voiceChannel) return msg.channel.send('ÃäÊ áÓÊ ÈÑæã ÕæÊí .');
-		if (!serverQueue) return msg.channel.send('áÇ íæÌÏ ÔíÁ ÔÛÂá.');
+		if (!serverQueue) return msg.channel.send('جاري التشغيل.');
 		if (!args[1]) return msg.channel.send(`:loud_sound: ãÓÊæì ÇáÕæÊ **${serverQueue.volume}**`);
 		serverQueue.volume = args[1];//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 		serverQueue.connection.dispatcher.setVolumeLogarithmic(args[1] / 50);
@@ -218,7 +219,7 @@ function play(guild, song) {
 }//by ,$ ReBeL Á , ??#4777 'CODES SERVER'
 
 client.on('message', message => {
-    var prefix = "M";
+    var prefix = "H";
     
       if (!message.content.startsWith(prefix)) return;
       var args = message.content.split(' ').slice(1);
