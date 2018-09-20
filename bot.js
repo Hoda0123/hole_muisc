@@ -223,38 +223,38 @@ client.on('message', message => {
       if (!message.content.startsWith(prefix)) return;
       var args = message.content.split(' ').slice(1);
       var argresult = args.join(' ');
-      if (message.author.id == 411564557027508235) return;
+      if (message.author.id == 468804935643824128) return;
     
     
     if (message.content.startsWith(prefix + 'playing')) {
-    if (message.author.id !== '411564557027508235') return message.reply('** åÐÇ ÇáÃãÑ ÝÞØ áÕÇÍÈ ÇáÈæÊ æ ÔßÑÇðð **')
+    if (message.author.id !== '468804935643824128') return message.reply('** åÐÇ ÇáÃãÑ ÝÞØ áÕÇÍÈ ÇáÈæÊ æ ÔßÑÇðð **')
     client.user.setGame(argresult);
         message.channel.sendMessage(`**${argresult}** : Êã ÊÛííÑ ÇáÍÇáÉ`)
     } else
     
      
     if (message.content.startsWith(prefix + 'streem')) {
-    if (message.author.id !== '422403573767340043') return message.reply('** åÐÇ ÇáÃãÑ ÝÞØ áÕÇÍÈ ÇáÈæÊ æ ÔßÑÇðð **')
+    if (message.author.id !== '468804935643824128') return message.reply('** åÐÇ ÇáÃãÑ ÝÞØ áÕÇÍÈ ÇáÈæÊ æ ÔßÑÇðð **')
     client.user.setGame(argresult, "http://twitch.tv/HA");
         message.channel.sendMessage(`**${argresult}** :Êã ÊÛííÑ ÇáÍÇáÉ Çáì ÓÊÑíãäÌ`)
     } else
     
     if (message.content.startsWith(prefix + 'setname')) {
-    if (message.author.id !== '422403573767340043') return message.reply('** åÐÇ ÇáÃãÑ ÝÞØ áÕÇÍÈ ÇáÈæÊ æ ÔßÑÇðð **')
+    if (message.author.id !== '468804935643824128') return message.reply('** åÐÇ ÇáÃãÑ ÝÞØ áÕÇÍÈ ÇáÈæÊ æ ÔßÑÇðð **')
       client.user.setUsername(argresult).then
           message.channel.sendMessage(`**${argresult}** : Êã ÊÛíÑ ÇáÃÓã`)
       return message.reply("**áÇ ÊÓÊØíÚ ÊÛíÑ ÇáÃÓã ÇáÇ ÈÚÏ ÓÇÚÊíä**");
     } else
         
     if (message.content.startsWith(prefix + 'setavatar')) {
-    if (message.author.id !== '422403573767340043') return message.reply('** åÐÇ ÇáÃãÑ ÝÞØ áÕÇÍÈ ÇáÈæÊ æ ÔßÑÇðð **')
+    if (message.author.id !== '468804935643824128') return message.reply('** åÐÇ ÇáÃãÑ ÝÞØ áÕÇÍÈ ÇáÈæÊ æ ÔßÑÇðð **')
     client.user.setAvatar(argresult);
         message.channel.sendMessage(`**${argresult}** : Êã ÊÛíÑ ÕæÑÉ ÇáÈæÊ`);
     } else
     
     
     if (message.content.startsWith(prefix + 'watching')) {
-    if (message.author.id !== '234454368072630283') return message.reply('** åÐÇ ÇáÃãÑ ÝÞØ áÕÇÍÈ ÇáÈæÊ æ ÔßÑÇðð **')
+    if (message.author.id !== '468804935643824128') return message.reply('** åÐÇ ÇáÃãÑ ÝÞØ áÕÇÍÈ ÇáÈæÊ æ ÔßÑÇðð **')
         client.user.setActivity(argresult, {type : 'watching'});
      message.channel.sendMessage(`**${argresult}** : Êã ÊÛííÑ ÇáææÊÔíäÞ Çáì`)
     }
