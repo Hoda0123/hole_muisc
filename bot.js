@@ -6,9 +6,9 @@ client.on('ready', ()=> {
     console.log('Ready!')
 })
  Music.start(client, {
-    prefix: "!", // H
+    prefix: "H", // 
     youtubeKey: 'AIzaSyDIv8O9OwZdoTaghK3_SQmyGcQFzkXMW6E', //هنا ال yt v3 api key
-    global: false, // يكون للسيرفرات ؟ خليه false, يكون queue مشترك خليه true            
+    global: true , // يكون للسيرفرات ؟ خليه false, يكون queue مشترك خليه true            
     maxQueueSize: 50, // اقصى حجم لل queue        
     playCmd: 'play', // امر التشغيل
     volumeCmd: 'vol',     // امر الصوت
