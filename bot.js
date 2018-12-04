@@ -25,7 +25,7 @@ client.on('ready', () => {
     client.user.setStatus("idle")
 });
 //by ,$ ReBeL ء , ??#4777 'CODES SERVER'
-const prefix = "H"
+const prefix = "~"
 client.on('message', async msg => { // eslint-disable-line
 	if (msg.author.bot) return undefined;
 	//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
@@ -218,7 +218,7 @@ function play(guild, song) {
 }//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
 
 client.on('message', message => {
-    var prefix = "H";
+    var prefix = "~";
     
       if (!message.content.startsWith(prefix)) return;
       var args = message.content.split(' ').slice(1);
