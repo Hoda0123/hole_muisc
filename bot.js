@@ -281,4 +281,4 @@ ${prefix}queue ? لمعرفة قآئمة التشغيل
    }); 
 
 
-client.login(process.env.NDkxNDQzMjE3MjQ2NDUzNzcx.XO_X2Q.ANnjEUeEdrTNiWkCT_y7hWYwNOo);
+client.login(process.BOT_TOKEN);
